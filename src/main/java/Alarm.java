@@ -3,6 +3,7 @@ public class Alarm {
         int anzahlPersonen = 10;
         String alarmstufe = "gelb";
         System.out.println(zuVielePersonen(anzahlPersonen,alarmstufe));
+        System.out.println("Programmende");
 
     }
 
