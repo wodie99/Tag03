@@ -2,11 +2,11 @@ public class Alarm {
     public static void main(String[] args) {
         int anzahlPersonen = 10;
         String alarmstufe = "gelb";
-        System.out.println(zuVielePersone(anzahlPersonen,alarmstufe));
+        System.out.println(zuVielePersonen(anzahlPersonen,alarmstufe));
 
     }
 
-    public static String zuVielePersone(int Personen, String alarmStufe) {
+    public static String zuVielePersonen(int Personen, String alarmStufe) {
         int max = 0;
         if (alarmStufe == "grün") {
             max = 60;
